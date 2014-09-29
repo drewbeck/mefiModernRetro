@@ -122,6 +122,10 @@ body.dark-mode #prevDiv2 a {
     color: #dc0
 }
 
+div.logo-and-primary-nav { 
+    background-image: url(http://i.imgur.com/88net15.png);
+}
+
 .site-header nav.user a {
     font-weight: bold;
     font-size: 10pt;
@@ -370,4 +374,10 @@ body.subsite-metafilter.dark-mode .miseperator {
 
 body.thread #posts h1 .smallcopy, body.thread #posts .copy .smallcopy, body.thread #posts .comments .smallcopy {
   margin-top: 3px;
+}
+
+
+.content, .content a, #posts, #posts .post, #posts h2, #posts body.post .monthday, body.post #posts .monthday, #posts #deck #decknote, #deck #posts #decknote, #posts body.subsite-fanfare h1.posttitle, body.subsite-fanfare #posts h1.posttitle, #posts body.subsite-projects h1.posttitle, body.subsite-projects #posts h1.posttitle, #posts body.subsite-projects #pagetext .monthday, body.subsite-projects #pagetext #posts .monthday, #posts body.subsite-jobs h1, body.subsite-jobs #posts h1, #posts body.subsite-podcast h1, body.subsite-podcast #posts h1, #posts body.subsite-irl .post-title, body.subsite-irl #posts .post-title, #posts body.subsite-irl h1.posttitle, body.subsite-irl #posts h1.posttitle, #posts body.subsite-login h1, body.subsite-login #posts h1, #posts body.subsite-login p.monthday, body.subsite-login #posts p.monthday, #posts body.subsite-login div.monthday, body.subsite-login #posts div.monthday, body.thread #posts h1, body.thread #posts #related div, #menu, .post-text, .site-header nav.secondary .current a, .smallcopy, #tagslist a, .sidebar, div[align="right"] .tags, #menu h2, #menu body.post .monthday, body.post #menu .monthday, #menu #deck #decknote, #deck #menu #decknote, #menu body.subsite-fanfare h1.posttitle, body.subsite-fanfare #menu h1.posttitle, #menu body.subsite-projects h1.posttitle, body.subsite-projects #menu h1.posttitle, #menu body.subsite-projects #pagetext .monthday, body.subsite-projects #pagetext #menu .monthday, #menu body.subsite-jobs h1, body.subsite-jobs #menu h1, #menu body.subsite-podcast h1, body.subsite-podcast #menu h1, #menu body.subsite-irl .post-title, body.subsite-irl #menu .post-title, #menu body.subsite-irl h1.posttitle, body.subsite-irl #menu h1.posttitle, #menu body.subsite-login h1, body.subsite-login #menu h1, #menu body.subsite-login p.monthday, body.subsite-login #menu p.monthday, #menu body.subsite-login div.monthday, body.subsite-login #menu div.monthday, #menu body.thread #posts h1, body.thread #posts #menu h1, #menu body.thread #posts #related div, body.thread #posts #related #menu div, #decknote, nav.tertiary li a, nav.tertiary ul, nav.tertiary li.current a, nav.tertiary li.current a:after, .caentry, .post-text, .postbyline, .content .new, #posts .copy.post br+span.smallcopy, .site-header .search #query {
+	transition: none;
+	-webkit-transition: none;
 }

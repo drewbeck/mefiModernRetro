@@ -139,6 +139,13 @@ body.dark-mode #prevDiv2 a {
     background-color: #dc0
 }
 
+/* branding! */
+span.white, span.green {
+    font-family: 'Helvetica';
+    font-weight: 800;
+    font-style: italic
+}
+
 .site-header.fixed nav.primary #fixed-primary-nav-toggle {
     top: -30px
 }

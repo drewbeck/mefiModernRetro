@@ -1,0 +1,373 @@
+.site-header nav.secondary {
+    display: none
+}
+
+body {
+    font-family: "Verdana";
+    font-size: 12pt;
+    background-color: #069
+}
+
+.site-header {
+    border-top: 3px solid #dc0
+}
+
+body.subsite-metafilter .tagline {
+    color: #3C9CC1;
+}
+
+body.dark-mode .content a {
+    color: #cc0
+}
+
+body.dark-mode .content a:visited {
+    color: #cc9
+}
+
+body.dark-mode .content a:hover {
+    color: white
+}
+
+h1,
+h2,
+body.post .monthday,
+#deck #decknote,
+body.subsite-fanfare h1.posttitle,
+body.subsite-projects h1.posttitle,
+body.subsite-projects #pagetext .monthday,
+body.subsite-jobs h1,
+body.subsite-podcast h1,
+body.subsite-irl .post-title,
+body.subsite-irl h1.posttitle,
+body.subsite-login h1,
+body.subsite-login p.monthday,
+body.subsite-login div.monthday,
+body.thread #posts h1,
+body.thread #posts #related div,
+h3,
+body.subsite-fanfare #fftalk .fftpost,
+body.subsite-music h1.posttitle,
+body.subsite-music #musictalk .mtpost,
+body.subsite-jobs .jobtitle,
+body.subsite-jobs #boxyleft .posttitle,
+body.subsite-jobs #boxyright p.copy,
+body.subsite-jobs #boxyright h1,
+#posts .posttitle {
+    font-family: Verdana;
+    font-size: 16pt;
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+
+body.dark-mode #posts .posttitle a,
+body.dark-mode #popposts .posttitle a {
+    color: #ddd
+}
+
+body.dark-mode #posts .posttitle a:visited,
+body.dark-mode #popposts .posttitle a:visited {
+    color: #ddd
+}
+
+body.subsite-metafilter.dark-mode #posts .whitesmallcopy,
+body.subsite-metafilter.dark-mode .postbyline,
+body.subsite-metafilter.dark-mode .byline,
+body.subsite-metafilter.dark-mode #posts .copy.post br+span.smallcopy,
+body.subsite-metafilter.dark-mode #newcommentsmsg {
+    background-color: transparent !important;
+    margin-top: 0px;
+    padding: 5px 0;
+}
+
+#posts .copy.post .postbyline,
+#posts .copy.post .byline {
+    margin-top: 2px;
+    padding: 0px;
+}
+
+body.subsite-metafilter.dark-mode nav.tertiary li.current a,
+body.subsite-metatalk.dark-mode nav.tertiary li.current a,
+body.subsite-askmefi.dark-mode nav.tertiary li.current a,
+body.subsite-fanfare.dark-mode nav.tertiary li.current a,
+body.subsite-music.dark-mode nav.tertiary li.current a,
+body.subsite-irl.dark-mode nav.tertiary li.current a {
+    font-size: 12pt;
+    color: #ccc !important;
+}
+
+body.dark-mode .content nav.tertiary a,
+body.dark-mode #prevDiv2 a {
+    font-size: 12pt;
+    color: #ccc !important;
+}
+
+
+.site-header nav.primary a,
+.site-header nav.secondary a {
+    font-size: 10pt
+}
+
+.site-header nav.primary li.current a {
+    background-color: transparent;
+    color: white;
+}
+
+.site-header nav.primary li a:hover {
+    background-color: #cc0;
+    color: black;
+}
+
+
+.site-header .logo a .green {
+    color: #dc0
+}
+
+.site-header nav.user a {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.site-header nav.user ul {
+    background-color: #dc0
+}
+
+.site-header nav.primary li.subnav span {
+    font-size: 10pt
+}
+
+.site-header nav.primary li.subnav span:hover {
+    background-color: #dc0
+}
+
+.site-header.fixed nav.primary #fixed-primary-nav-toggle {
+    top: -30px
+}
+
+.site-header.fixed nav.primary ul li a,
+.site-header.fixed nav.secondary ul li a,
+.site-header.fixed nav.user ul li a {
+    font-size: 14pt;
+    line-height: 30px;
+}
+
+.site-header.fixed nav.primary ul li a:hover,
+.site-header.fixed nav.secondary ul li a:hover,
+.site-header.fixed nav.user ul li a:hover {
+    background-color: #dc0
+}
+
+body.subsite-metafilter.dark-mode .site-header.fixed nav ul li.current a,
+body.subsite-metafilter.dark-mode .site-header.fixed nav ul li a:hover {
+    background-color: #dc0
+}
+
+body.subsite-metafilter div[align="right"] .tags,
+div[align="right"] body.subsite-metafilter .tags {
+    font-size: 10pt
+}
+
+#menu h2,
+#menu body.post .monthday,
+body.post #menu .monthday,
+#menu #deck #decknote,
+#deck #menu #decknote,
+#menu body.subsite-fanfare h1.posttitle,
+body.subsite-fanfare #menu h1.posttitle,
+#menu body.subsite-projects h1.posttitle,
+body.subsite-projects #menu h1.posttitle,
+#menu body.subsite-projects #pagetext .monthday,
+body.subsite-projects #pagetext #menu .monthday,
+#menu body.subsite-jobs h1,
+body.subsite-jobs #menu h1,
+#menu body.subsite-podcast h1,
+body.subsite-podcast #menu h1,
+#menu body.subsite-irl .post-title,
+body.subsite-irl #menu .post-title,
+#menu body.subsite-irl h1.posttitle,
+body.subsite-irl #menu h1.posttitle,
+#menu body.subsite-login h1,
+body.subsite-login #menu h1,
+#menu body.subsite-login p.monthday,
+body.subsite-login #menu p.monthday,
+#menu body.subsite-login div.monthday,
+body.subsite-login #menu div.monthday,
+#menu body.thread #posts h1,
+body.thread #posts #menu h1,
+#menu body.thread #posts #related div,
+body.thread #posts #related #menu div,
+#threadside h2,
+#threadside body.post .monthday,
+body.post #threadside .monthday,
+#threadside #deck #decknote,
+#deck #threadside #decknote,
+#threadside body.subsite-fanfare h1.posttitle,
+body.subsite-fanfare #threadside h1.posttitle,
+#threadside body.subsite-projects h1.posttitle,
+body.subsite-projects #threadside h1.posttitle,
+#threadside body.subsite-projects #pagetext .monthday,
+body.subsite-projects #pagetext #threadside .monthday,
+#threadside body.subsite-jobs h1,
+body.subsite-jobs #threadside h1,
+#threadside body.subsite-podcast h1,
+body.subsite-podcast #threadside h1,
+#threadside body.subsite-irl .post-title,
+body.subsite-irl #threadside .post-title,
+#threadside body.subsite-irl h1.posttitle,
+body.subsite-irl #threadside h1.posttitle,
+#threadside body.subsite-login h1,
+body.subsite-login #threadside h1,
+#threadside body.subsite-login p.monthday,
+body.subsite-login #threadside p.monthday,
+#threadside body.subsite-login div.monthday,
+body.subsite-login #threadside div.monthday,
+#threadside body.thread #posts h1,
+body.thread #posts #threadside h1,
+#threadside body.thread #posts #related div,
+body.thread #posts #related #threadside div,
+div[style="float:right;"] div[align="right"] h2,
+div[style="float:right;"] div[align="right"] body.post .monthday,
+body.post div[style="float:right;"] div[align="right"] .monthday,
+div[style="float:right;"] div[align="right"] #deck #decknote,
+#deck div[style="float:right;"] div[align="right"] #decknote,
+div[style="float:right;"] div[align="right"] body.subsite-fanfare h1.posttitle,
+body.subsite-fanfare div[style="float:right;"] div[align="right"] h1.posttitle,
+div[style="float:right;"] div[align="right"] body.subsite-projects h1.posttitle,
+body.subsite-projects div[style="float:right;"] div[align="right"] h1.posttitle,
+div[style="float:right;"] div[align="right"] body.subsite-projects #pagetext .monthday,
+body.subsite-projects #pagetext div[style="float:right;"] div[align="right"] .monthday,
+div[style="float:right;"] div[align="right"] body.subsite-jobs h1,
+body.subsite-jobs div[style="float:right;"] div[align="right"] h1,
+div[style="float:right;"] div[align="right"] body.subsite-podcast h1,
+body.subsite-podcast div[style="float:right;"] div[align="right"] h1,
+div[style="float:right;"] div[align="right"] body.subsite-irl .post-title,
+body.subsite-irl div[style="float:right;"] div[align="right"] .post-title,
+div[style="float:right;"] div[align="right"] body.subsite-irl h1.posttitle,
+body.subsite-irl div[style="float:right;"] div[align="right"] h1.posttitle,
+div[style="float:right;"] div[align="right"] body.subsite-login h1,
+body.subsite-login div[style="float:right;"] div[align="right"] h1,
+div[style="float:right;"] div[align="right"] body.subsite-login p.monthday,
+body.subsite-login div[style="float:right;"] div[align="right"] p.monthday,
+div[style="float:right;"] div[align="right"] body.subsite-login div.monthday,
+body.subsite-login div[style="float:right;"] div[align="right"] div.monthday,
+div[style="float:right;"] div[align="right"] body.thread #posts h1,
+body.thread #posts div[style="float:right;"] div[align="right"] h1,
+div[style="float:right;"] div[align="right"] body.thread #posts #related div,
+body.thread #posts #related div[style="float:right;"] div[align="right"] div {
+    font-size: 14pt
+}
+
+.icon_19502 {
+    margin-top: 0px
+}
+
+.smallcopy {
+    font-family: Verdana !important;
+    font-size: 10pt !important;
+}
+
+blockquote {
+    font-size: 12pt;
+    margin: 10px;
+}
+
+body.thread #posts h1 .smallcopy,
+body.thread #posts .copy .smallcopy,
+body.thread #posts .comments .smallcopy {
+    font-family: Verdana !important;
+    font-size: 10pt !important;
+    margin-top: 8px;
+}
+
+
+.staff {
+    font-size: 10pt;
+    background-color: #dc0 !important;
+}
+
+.staffp {
+    font-size: 10pt;
+    color: #dc0 !important;
+}
+
+body.subsite-metatalk.dark-mode nav.tertiary li.current a {
+    color: #ccc !important
+}
+
+body.subsite-askmefi.dark-mode nav.tertiary li.current a {
+    color: #ccc !important
+}
+
+footer.site-footer h2 {
+    font-size: 14pt
+}
+
+footer.site-footer a {
+    font-size: 10pt;
+    color: #cc0 !important;
+}
+
+footer.site-footer a:hover {
+    font-size: 10pt;
+    color: #white !important;
+}
+
+footer.site-footer a:visited {
+    font-size: 10pt;
+    color: #cc9 !important;
+}
+
+body.thread #posts .whitesmallcopy {
+    font-size: 10pt !important
+}
+
+.button {
+    border: 1px solid white !important
+}
+
+.form-control,
+body.thread #posts #commentform #comment {
+    font-family: Verdana;
+    font-size: 12pt;
+}
+
+::selection {
+    background: #ff0;
+    color: #333;
+}
+
+body.subsite-projects .votebox .voteforit a {
+    font-size: 10pt !important
+}
+
+#menu .sidehide a .icon {
+    top: -2px
+}
+
+body.dark-mode #posts h2 {
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
+body.subsite-metafilter .sidebar h3 {
+    margin-bottom: 8px;
+    margin-top: 26px;
+}
+
+body.thread #posts .comments {
+  margin-left: 0;
+  margin-right: 40px;
+}
+
+body.thread #posts .postbyline {
+ padding: 5px 0; 
+}
+
+body.subsite-metafilter.dark-mode .miseperator {
+    border-top: 1px solid rgba(255,255,255,.2) !important;
+    margin-top: 20px !important;
+    padding-top: 0px;
+}
+
+body.thread #posts h1 .smallcopy, body.thread #posts .copy .smallcopy, body.thread #posts .comments .smallcopy {
+  margin-top: 3px;
+}
